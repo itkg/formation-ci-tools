@@ -4,8 +4,8 @@ language:
 php:
     - 5.4
 
-before_script:
-    - composer install --prefer-source --no-interaction
+install:
+    - composer install --prefer-dist --no-interaction
 
 script:
     - ./bin/phpunit -c app/
