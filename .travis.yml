@@ -4,7 +4,7 @@ language:
 php:
     - 5.4
 
-befor_script:
+before_script:
     - composer install --prefer-source --no-interaction
 
 script:
