@@ -10,4 +10,3 @@
 !/app/cache/.gitkeep
 !/app/logs/.gitkeep
 vendor
-/composer.lock
