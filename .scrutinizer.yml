@@ -1,0 +1,5 @@
+filter:
+    path: [ src/*]
+
+tools:
+    php_mess_detector: true
