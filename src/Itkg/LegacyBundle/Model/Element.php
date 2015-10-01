@@ -5,7 +5,7 @@ namespace Itkg\LegacyBundle\Model;
 /**
  * Class Element
  */
-class Element 
+class Element implements ElementInterface
 {
     /**
      * @var string
